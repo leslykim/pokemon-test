@@ -9,7 +9,7 @@
 1. No se agregó correctamente el .env en el .gitignore, exponiendo la clave secreta
 2. Existen dos .env.
 3. No se eliminaron los tests que se generan por defecto en el proyecto.
-4. Los tests `Check Wikipedia page for ${pokemon.name}` fallan
+4. Los tests `Check Wikipedia page for ${pokemon.name}` fallan. Tener en cuenta que se espera, que usando un único selector, funcione para todos los pokemones (NO crear "locatorPikachu", "locatorSnorlax", etcétera), es decir, debe ser re-utilizable.
 5. No se hace uso de baseUrl, sino que se indican las urls completas en cada test.
 
 
