@@ -15,3 +15,7 @@ En el proyecto contiene pruebas automatizadas para la PokeApi y Wikipedia usando
 
 ```bash
 npm install
+
+npm playwright test 
+
+npx playwright show-report
